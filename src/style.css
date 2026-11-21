@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #141414;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #e50914;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b20710;
+}
+
+#mensaje {
+  color: #ffcc00;
+}
+
+#resultados {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.tarjeta {
+  background: #222;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: left;
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.anio {
+  color: #aaa;
+}
+
+.sinopsis {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
